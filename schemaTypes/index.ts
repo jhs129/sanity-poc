@@ -14,6 +14,10 @@ import {module6} from './objects/sections/module6'
 import {clinicalTrialSearch} from './objects/sections/clinicalTrialSearch'
 import {memberApp} from './objects/sections/memberApp'
 import {productCardPlaceholder} from './objects/sections/productCardPlaceholder'
+import {richText} from './objects/sections/richText'
+import {columns} from './objects/sections/columns'
+import {imageBlock} from './objects/sections/imageBlock'
+import {htmlEmbed} from './objects/sections/htmlEmbed'
 
 export const schemaTypes = [
   portableText,
@@ -31,4 +35,8 @@ export const schemaTypes = [
   clinicalTrialSearch,
   memberApp,
   productCardPlaceholder,
+  richText,
+  columns,
+  imageBlock,
+  htmlEmbed,
 ]
