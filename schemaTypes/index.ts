@@ -9,6 +9,8 @@ import {eventCardVertical} from './objects/sections/eventCardVertical'
 import {heroCancerCare} from './objects/sections/heroCancerCare'
 import {faqSection} from './objects/sections/faqSection'
 import {mod2} from './objects/sections/mod2'
+import {supportResources} from './objects/sections/supportResources'
+import {module6} from './objects/sections/module6'
 
 export const schemaTypes = [
   portableText,
@@ -21,4 +23,6 @@ export const schemaTypes = [
   heroCancerCare,
   faqSection,
   mod2,
+  supportResources,
+  module6,
 ]
