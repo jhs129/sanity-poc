@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import {schemaTypes} from '../index'
 
 /** Returns the registered schema type with the given name, or throws. */
