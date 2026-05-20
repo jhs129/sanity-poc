@@ -41,7 +41,7 @@ export const portableTextBlock = () =>
 /** Shared Portable Text array type: block text + inline images. */
 export const portableText = defineType({
   name: 'portableText',
-  title: 'Rich Text',
+  title: 'Portable Text',
   type: 'array',
   of: [portableTextBlock(), defineArrayMember({type: 'image', options: {hotspot: true}})],
 })
