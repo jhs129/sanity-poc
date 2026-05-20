@@ -1,3 +1,5 @@
+import {page} from './documents/page'
+
 import {portableText} from './objects/shared/portableText'
 import {linkCard} from './objects/shared/linkCard'
 
@@ -20,6 +22,7 @@ import {imageBlock} from './objects/sections/imageBlock'
 import {htmlEmbed} from './objects/sections/htmlEmbed'
 
 export const schemaTypes = [
+  page,
   portableText,
   linkCard,
   ctaButton,
